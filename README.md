@@ -8,7 +8,10 @@ Code for "Deformable Model Driven Neural Rendering for High-fidelity 3D Reconstr
 We propose a robust method for learning neural implicit functions that can reconstruct 3D human heads with high-fidelity geometry from low-view inputs. We represent 3D human heads as the zero level-set of a composed signed distance field that consists of a smooth template, a non-rigid deformation, and a high-frequency displacement field. The template represents identity-independent and expression-neutral features, which is trained on multiple individuals, along with the deformation network. The displacement field encodes identity-dependent geometric details, trained for each specific individual. We train our network in two stages using a coarse-to-fine strategy without 3D supervision. Our experiments demonstrate that the geometry decomposition and two-stage training make our method robust and our model outperforms existing methods in terms of reconstruction accuracy and novel view synthesis under low-view settings. Additionally, the pre-trained template serves a good initialization for our model to adapt to unseen individuals.
 
 <img src='./misc/arch_pipeline.png' width=800>
-<video controls src="./misc/video.mp4"></video>
+
+## Video
+
+<video controls src="./misc/video_compress.mp4"></video>
 
 ## Training
 This project is developed and tested on...
