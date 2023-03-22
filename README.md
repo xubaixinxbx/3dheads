@@ -12,6 +12,7 @@ We propose a robust method for learning neural implicit functions that can recon
 ## Video
 
 <video controls src="./misc/video_compress.mp4"></video>
+Note: We upload the compressed video for convenience, please download and see the original [video](https://github.com/xubaixinxbx/High-fidelity-3D-Reconstruction-of-Human-Heads/tree/main/misc).
 
 ## Training
 This project is developed and tested on...
