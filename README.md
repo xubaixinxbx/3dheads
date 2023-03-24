@@ -20,17 +20,15 @@ https://user-images.githubusercontent.com/113180125/226776993-773379e1-2d10-49ae
 Note: We upload the compressed video for convenience, please download and see the original [video](https://github.com/xubaixinxbx/High-fidelity-3D-Reconstruction-of-Human-Heads/tree/main/misc).
 
 ## Training
-This project is developed and tested on...
-- You can create an anaconda environment called ... with:
 ```
-to be
+python training/exp_runner.py --conf ./conf/st1.conf --scan_id 399 --gpu 0 
 ```
 
 ## Citation
 
 If you find our work useful, please kindly cite as:
 ```
-to be
+arxiv.
 ```
 
 ## Acknowledgement
