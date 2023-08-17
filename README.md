@@ -1,5 +1,5 @@
-# Neural Rendering for 3D Human Head Reconstruction: A Deformable Model Approach in Low-View Settings
-Code for "Neural Rendering for 3D Human Head Reconstruction: A Deformable Model Approach in Low-View Settings"
+# Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings
+Code for "Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings"
 
 [Baixin Xu](https://xubaixinxbx.github.io/), [Jiarui Zhang](https://github.com/xubaixinxbx/3dheads), [Kwan-Yee Lin](https://kwanyeelin.github.io/), [Chen Qian](https://scholar.google.com/citations?user=AerkT0YAAAAJ&hl=zh-CN), [Ying He](https://personal.ntu.edu.sg/yhe/).
 
