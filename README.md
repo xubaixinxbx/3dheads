@@ -23,19 +23,29 @@ https://user-images.githubusercontent.com/113180125/226843465-432415fb-6ee3-44eb
 
 Note: We upload the compressed video for convenience, please download and see the original [video](https://github.com/xubaixinxbx/High-fidelity-3D-Reconstruction-of-Human-Heads/tree/main/misc).
 
-## Training
-```
-python training/exp_runner.py --conf ./conf/st1.conf --scan_id 399 --gpu 0 
-```
+## Setup
+You can create an anaconda environment refer to (VolSDF)[https://github.com/lioryariv/volsdf/tree/main].
 
+## Data
+We use the data provided by [Single Image Portrait Relighting via Explicit Multiple Reflectance Channel Modeling](https://sireer.github.io/projects/FLM_project/). Specifically, we select 30 distinct individuals and conduct joint training during stage 1.
+
+## Training
+Training template human head and deformation correspondence in stage 1:
+```
+bash confs/face_st1.sh 
+```
+Training displacement field in stage 2 based on stage 1:
+```
+bash confs/face_st2.sh 
+```
 ## Citation
 
 If you find our work useful, please kindly cite as:
 ```
-@article{xu2023deformable,
-  title={Deformable Model Driven Neural Rendering for High-fidelity 3D Reconstruction of Human Heads Under Low-View Settings},
+@inproceedings{xu2023deformable,
+  title={Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings},
   author={Xu, Baixin and Zhang, Jiarui and Lin, Kwan-Yee and Qian, Chen and He, Ying},
-  journal={arXiv preprint arXiv:2303.13855},
+  booktitle={{Proceedings of the IEEE/CVF International Conference on Computer Vision}},
   year={2023}
 }
 ```
