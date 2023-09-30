@@ -42,11 +42,13 @@ bash confs/face_st2.sh
 
 If you find our work useful, please kindly cite as:
 ```
-@inproceedings{xu2023deformable,
-  title={Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings},
-  author={Xu, Baixin and Zhang, Jiarui and Lin, Kwan-Yee and Qian, Chen and He, Ying},
-  booktitle={{Proceedings of the IEEE/CVF International Conference on Computer Vision}},
-  year={2023}
+@InProceedings{Xu_2023_ICCV,
+    author    = {Xu, Baixin and Zhang, Jiarui and Lin, Kwan-Yee and Qian, Chen and He, Ying},
+    title     = {Deformable Model-Driven Neural Rendering for High-Fidelity 3D Reconstruction of Human Heads Under Low-View Settings},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {17924-17934}
 }
 ```
 
