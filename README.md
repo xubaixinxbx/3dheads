@@ -23,12 +23,17 @@ https://user-images.githubusercontent.com/113180125/226843465-432415fb-6ee3-44eb
 
 Note: We upload the compressed video for convenience, please download and see the original [video](https://github.com/xubaixinxbx/High-fidelity-3D-Reconstruction-of-Human-Heads/tree/main/misc).
 
+## TODO
+- [x] Relase basic code
+- [ ] Realse checkpoint on [Facescape](https://facescape.nju.edu.cn/)
+
 ## Setup
 You can create an anaconda environment by referring to [VolSDF](https://github.com/lioryariv/volsdf/tree/main).
 
 ## Data
 We use the data provided by [Single Image Portrait Relighting via Explicit Multiple Reflectance Channel Modeling](https://sireer.github.io/projects/FLM_project/). Specifically, we select 30 distinct individuals and conduct joint training during stage 1.
 
+Other datasets like Facescape please refer to the [project page](https://facescape.nju.edu.cn/).
 ## Training
 Training template human head and deformation correspondence in stage 1:
 ```
