@@ -24,8 +24,8 @@ https://user-images.githubusercontent.com/113180125/226843465-432415fb-6ee3-44eb
 Note: We upload the compressed video for convenience, please download and see the original [video](https://github.com/xubaixinxbx/High-fidelity-3D-Reconstruction-of-Human-Heads/tree/main/misc).
 
 ## TODO
-- [x] Relase basic code
-- [ ] Realse checkpoint on [Facescape](https://facescape.nju.edu.cn/)
+- [x] Release basic code,
+- [ ] Release checkpoint on [Facescape](https://facescape.nju.edu.cn/)
 
 ## Setup
 You can create an anaconda environment by referring to [VolSDF](https://github.com/lioryariv/volsdf/tree/main).
