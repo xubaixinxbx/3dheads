@@ -25,7 +25,9 @@ Note: We upload the compressed video for convenience, please download and see th
 
 ## TODO
 - [x] Release basic code,
-- [ ] Release checkpoint on [Facescape](https://facescape.nju.edu.cn/)
+- [x] Release code on [Facescape](https://facescape.nju.edu.cn/).
+
+Our method is also evaluated on the Facescape dataset, which is processed as in [NeuFace](https://github.com/aejion/NeuFace/tree/master).
 
 ## Setup
 You can create an anaconda environment by referring to [VolSDF](https://github.com/lioryariv/volsdf/tree/main).
