@@ -222,8 +222,7 @@ class FaceDataset(torch.utils.data.Dataset):
                         c2w = c2w[...,:3,:4].reshape(-1,3,4)
                         c2w = np.concatenate([c2w, [[[0,0,0,1]]]*len(c2w)], 1)
                         # import pdb; pdb.set_trace()
-                        c2w[:,:3,:4] = c2w[:,:3,:4]*self.cam_scale
-                        # c2w[:,:3,3] = c2w[:,:3,3]*self.cam_scale
+                        c2w[:,:3,3] = c2w[:,:3,3]*self.cam_scale
                         self.pose_all.append(c2w.astype(np.float32))
                         K = K[...,:2,:3].reshape(-1,2,3)
                         K = np.concatenate([K, [[[0,0,1]]]*len(K)], 1)
